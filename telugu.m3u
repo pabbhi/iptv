@@ -1,9 +1,9 @@
 #EXTM3U
 
 #################### ENTERTAINMENT ####################
-#EXTINF:-1 group-title="Entertainment",Gemini TV HD
+#EXTINF:-1 tvg-id="GeminiTV.in@HD" tvg-logo="https://drive.google.com/file/d/18_OFMaeqb5tNr8LXirzl-ISgZL-svpMG/view" group-title="Entertainment",Gemini TV (1080p)
 https://livestream10.sunnxt.com/DolbyVision/GeminiTV_HDR/GeminiTV_HDR_Endpoints/GeminiTV-HDR10-IN-index.m3u8
-#EXTINF:-1 group-title="Entertainment",ETV Telugu HD
+#EXTINF:-1 tvg-id="ETV HD.in@HD" tvg-logo="https://drive.google.com/file/d/1INfz_VstDK8OmSfKghbF1vYE8xZ6e2PL/view" group-title="Entertainment",ETV Telugu HD
 https://d2z3q47xzd535o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264-2_cloud_in/index.m3u8
 #EXTINF:-1 group-title="Entertainment",Star Maa HD
 http://103.167.255.18:8085/play/a0nj/index.m3u8
