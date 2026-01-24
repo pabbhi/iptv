@@ -1,0 +1,42 @@
+# 1️⃣ Install Node.js LTS (includes npm & npx)
+winget install OpenJS.NodeJS.LTS -e --source winget
+
+# 2️⃣ Fix PowerShell script policy
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
+
+# 3️⃣ Close and reopen PowerShell manually after installation
+
+# 4️⃣ Verify Node.js, npm, npx
+node -v
+npm -v
+npx -v
+
+# 5️⃣ Create a folder for projects and enter it
+cd ~
+mkdir Projects
+cd Projects
+
+# 6️⃣ Create React project
+npx create-react-app iptv-web
+cd iptv-web
+
+# 7️⃣ Install Supabase client
+npm install @supabase/supabase-js
+
+# 8️⃣ Initialize Git
+git init
+git add .
+git commit -m "Initial commit"
+
+# 9️⃣ Add GitHub remote (replace YourGitHubUsername with your actual username)
+git remote add origin https://github.com/YourGitHubUsername/iptv-web.git
+
+# 10️⃣ Verify remote (optional)
+git remote -v
+
+# 11️⃣ Push to GitHub
+git branch -M main
+git push -u origin main
+
+# 12️⃣ Start React development server (optional)
+npm start

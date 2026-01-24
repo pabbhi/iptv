@@ -1,0 +1,35 @@
+winget install --id Git.Git -e --source winget
+
+git --version
+
+winget install OpenJS.NodeJS.LTS -e --source winget
+
+verify:
+node -v
+npm -v
+npx -v
+
+
+
+login
+git config --global user.name "pabbhi"
+git config --global user.email "pabbhiwork@gmail.com"
+
+
+npx create-react-app iptv-web
+cd iptv-web
+
+
+npm install @supabase/supabase-js
+
+
+git init
+git add .
+git commit -m "Initial commit"
+
+
+git remote add origin https://github.com/pabbhi/iptv-web
+git branch -M main
+git push -u origin main
+
+

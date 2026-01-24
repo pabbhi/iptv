@@ -1,0 +1,5 @@
+https://supabase.com/
+
+proj url:	https://fyomcalfykiikwfnwxtu.supabase.co
+
+api key:	sb_publishable_02K2D9_1dSytUAbqRNMeSw_03Xt3zHj
